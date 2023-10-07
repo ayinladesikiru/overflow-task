@@ -8,3 +8,7 @@ of the function, but this operation also takes constant time.
 Challenge 1b
 Time complexity of the identify_router() the challenge 1b is O(V + E),
 where V is the number of nodes in the graph and E is the number of edges in the graph.
+
+Pipenv is used to create the virtul environment and use as package manager
+requests module is used to call the etherscan endpoint
+pytest framework is used to test the functions
