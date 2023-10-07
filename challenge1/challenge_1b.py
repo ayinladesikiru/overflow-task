@@ -36,3 +36,6 @@ def identify_router(graph: Graph):
         elif connections == max_connections:
             router_labels.append(label)
     return router_labels
+
+# time complexity of the identify_router() is O(V + E),
+# where V is the number of nodes in the graph and E is the number of edges in the graph.
